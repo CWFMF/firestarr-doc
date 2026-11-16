@@ -1,0 +1,51 @@
+// README.adoc
+= FireSTARR README
+
+== Overview
+
+FireSTARR is designed to support wildland fire response decision-making, and is the fire growth algorithm originally in the FireGUARD suite of programs.
+
+It focuses on the generation of burn probabilities from replicated simulation of fire growth, smouldering, and natural extinction under the weather and stochastic fire behaviour scenarios.
+
+This documentation is intended to assist users in understanding the FireSTARR program, its inputs and outputs, and how to run it.
+
+For additional in depth technical details, please see the following website: https://cwfmf.github.io/FireSTARR/.
+
+include::docs/usage.adoc[]
+
+== Settings
+
+include::docs/settings.adoc[]
+
+== Command Line Arguments
+
+include::docs/arguments/h.adoc[]
+include::docs/arguments/v.adoc[]
+include::docs/arguments/q.adoc[]
+include::docs/arguments/ascii.adoc[]
+include::docs/arguments/no_tiff.adoc[]
+include::docs/arguments/i.adoc[]
+include::docs/arguments/s.adoc[]
+include::docs/arguments/points.adoc[]
+include::docs/arguments/no_intensity.adoc[]
+include::docs/arguments/no_probability.adoc[]
+include::docs/arguments/occurrence.adoc[]
+include::docs/arguments/sim_area.adoc[]
+include::docs/arguments/raster_root.adoc[]
+include::docs/arguments/fuel_lut.adoc[]
+include::docs/arguments/tz.adoc[]
+include::docs/arguments/curing.adoc[]
+include::docs/arguments/greenup.adoc[]
+include::docs/arguments/log.adoc[]
+include::docs/arguments/wx.adoc[]
+include::docs/arguments/deterministic.adoc[]
+include::docs/arguments/confidence.adoc[]
+include::docs/arguments/perimeter.adoc[]
+include::docs/arguments/size.adoc[]
+include::docs/arguments/ffmc.adoc[]
+include::docs/arguments/dmc.adoc[]
+include::docs/arguments/dc.adoc[]
+include::docs/arguments/apcp_prev.adoc[]
+include::docs/arguments/output_date_offset.adoc[]
+
+include::docs/license.adoc[]
