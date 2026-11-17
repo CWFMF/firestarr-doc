@@ -8,3 +8,4 @@ Initialize simulation from a fire perimeter.
 |===
 |Type |Input mode
 |===
+<<index,↑ Back to top>>

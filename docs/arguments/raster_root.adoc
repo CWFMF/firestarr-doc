@@ -10,3 +10,4 @@ Root directory to read rasters from. FireSTARR will read from the default locati
 |Required |Yes (context dependent)
 |Default | ./generated/grid/100m
 |===
+<<index,↑ Back to top>>

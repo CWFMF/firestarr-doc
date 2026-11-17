@@ -34,11 +34,11 @@ The spread potential thresholds are set using 3 separate random numbers, scenari
 
 Spread Example 1 
 
-image::../images/Spread_1.png[Spread Example 1]
+image::../img/Spread_1.png[Spread Example 1]
 
 Spread Example 2
 
-image::../images/Spread_2.png[Spread Example 2]
+image::../img/Spread_2.png[Spread Example 2]
 
 What this looks like in practice is as follows.
 

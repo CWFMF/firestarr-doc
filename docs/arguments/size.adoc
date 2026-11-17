@@ -8,3 +8,4 @@ Initialize simulation using initial fire size.
 |===
 |Type |Numeric
 |===
+<<index,↑ Back to top>>

@@ -10,3 +10,5 @@ Show help information and usage instructions.
 |Default |Off
 |===
 ``
+
+<<index,↑ Back to top>>

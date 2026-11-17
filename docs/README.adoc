@@ -17,6 +17,7 @@ include::usage.adoc[]
 
 include::settings.adoc[]
 
+[#index]
 == Command Line Arguments
 
 include::arguments/h.adoc[]
