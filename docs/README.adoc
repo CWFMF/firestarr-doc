@@ -13,6 +13,7 @@ For additional in depth technical details, please see the following website: htt
 
 include::usage.adoc[]
 
+include::probability.adoc[]
 == Settings
 
 include::settings.adoc[]
