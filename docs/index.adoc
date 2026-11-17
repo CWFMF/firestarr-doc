@@ -1,14 +1,36 @@
 [tabs]
 ====
-One::
+Usage::
 +
 --
-First tab
+include::usage.adoc[]
 --
 
-Two::
+Probability::
 +
 --
-Second tab
+include::probability.adoc[]
+--
+
+Settings::
++
+--
+include::settings.adoc[]
+--
+
+Command Line Arguments::
++
+--
+include::arguments/h.adoc[]
+include::arguments/v.adoc[]
+include::arguments/q.adoc[]
+...
+include::arguments/output_date_offset.adoc[]
+--
+
+License::
++
+--
+include::license.adoc[]
 --
 ====
