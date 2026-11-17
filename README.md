@@ -1,19 +1,5 @@
-###
-
-# ***THIS REPOSITORY IS A WORK IN PROGRESS AND NOT TO BE TAKEN AS FACT.***
-# ***WE ASSUME NO LIABILITY FOR ANY USAGE, BY ANYONE, UNDER ANY CIRCUMSTANCES***
-
-###
-
-
-
 ## Table of Contents
 
-- [***THIS REPOSITORY IS A WORK IN PROGRESS AND NOT TO BE TAKEN AS FACT.***](#this-repository-is-a-work-in-progress-and-not-to-be-taken-as-fact)
-- [***WE ASSUME NO LIABILITY FOR ANY USAGE, BY ANYONE, UNDER ANY CIRCUMSTANCES***](#we-assume-no-liability-for-any-usage-by-anyone-under-any-circumstances)
-    - [](#-1)
-  - [Table of Contents](#table-of-contents)
-    - [](#-2)
 - [About FireSTARR](#about-firestarr)
 - [FireSTARR](#firestarr)
   - [Documentation](#documentation)
@@ -24,7 +10,9 @@
 
 
 
+***THIS REPOSITORY IS A WORK IN PROGRESS AND NOT TO BE TAKEN AS FACT.***
 
+***WE ASSUME NO LIABILITY FOR ANY USAGE, BY ANYONE, UNDER ANY CIRCUMSTANCES***
 
 This repository is to provide documentation regarding the FireSTARR model, located at:
 - https://github.com/cwfmf/firestarr 
