@@ -1,4 +1,7 @@
 = FireSTARR Documentation
+:stylesheet: custom.css
+:linkcss:
+:experimental:
 
 == Overview
 
