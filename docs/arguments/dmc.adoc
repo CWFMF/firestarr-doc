@@ -1,5 +1,6 @@
 // dmc.adoc
 [[arg-dmc]]
+[discrete]
 === --dmc
 
 Set starting Duff Moisture Code (DMC).
@@ -8,4 +9,3 @@ Set starting Duff Moisture Code (DMC).
 |===
 |Type |Numeric
 |===
-<<index,↑ Back to top>>

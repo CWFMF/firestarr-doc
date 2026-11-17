@@ -1,5 +1,6 @@
 // dc.adoc
 [[arg-dc]]
+[discrete]
 === --dc
 
 Set starting Drought Code (DC).
@@ -8,4 +9,3 @@ Set starting Drought Code (DC).
 |===
 |Type |Numeric
 |===
-<<index,↑ Back to top>>

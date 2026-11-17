@@ -18,10 +18,7 @@ https://cwfmf.github.io/FireSTARR/[FireSTARR Technical Documentation]
 Usage::
 +
 --
-[discrete]
-=== Usage
-
-This is a test.
+include::usage.adoc[]
 --
 
 Probability::

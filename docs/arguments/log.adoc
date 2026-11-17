@@ -1,5 +1,6 @@
 // apcp_prev.adoc
 [[arg-log]]
+[discrete]
 === --log
 
 Output a log file of the simulation. The log file will contain information about the simulation, including the settings used, the weather data, and the results of the simulation.

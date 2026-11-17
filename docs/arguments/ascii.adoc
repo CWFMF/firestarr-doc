@@ -1,5 +1,6 @@
 // ascii.adoc
 [[arg-ascii]]
+[discrete]
 === --ascii
 
 Save output grids in ASCII (`.asc`) format.

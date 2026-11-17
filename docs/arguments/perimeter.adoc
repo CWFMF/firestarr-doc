@@ -1,5 +1,6 @@
 // perim.adoc
 [[arg-perim]]
+[discrete]
 === --perim
 
 Initialize simulation from a fire perimeter.
@@ -8,4 +9,3 @@ Initialize simulation from a fire perimeter.
 |===
 |Type |Input mode
 |===
-<<index,↑ Back to top>>

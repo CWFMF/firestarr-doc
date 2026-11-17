@@ -1,5 +1,6 @@
 // i.adoc
 [[arg-i]]
+[discrete]
 === -i
 
 Save individual simulation maps.
@@ -9,4 +10,3 @@ Save individual simulation maps.
 |Type |Flag
 |Default |Disabled
 |===
-<<index,↑ Back to top>>

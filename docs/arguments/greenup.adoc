@@ -1,5 +1,6 @@
 // force-greenup.adoc
 [[arg-force-greenup]]
+[discrete]
 === --force-greenup
 
 Force green-up conditions for all fires.
@@ -9,9 +10,10 @@ Force green-up conditions for all fires.
 |Type |Flag
 |===
 
-<<index,↑ Back to top>>
+
 // force-no-greenup.adoc
 [[arg-force-no-greenup]]
+[discrete]
 === --force-no-greenup
 
 Force no green-up conditions for all fires.
@@ -20,4 +22,3 @@ Force no green-up conditions for all fires.
 |===
 |Type |Flag
 |===
-<<index,↑ Back to top>>

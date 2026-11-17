@@ -1,5 +1,6 @@
 // tz.adoc
 [[arg-tz]]
+[discrete]
 === --tz
 
 Specify UTC offset (hours).
@@ -9,4 +10,3 @@ Specify UTC offset (hours).
 |Type |Integer
 |Units |Hours
 |===
-<<index,↑ Back to top>>

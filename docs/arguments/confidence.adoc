@@ -1,5 +1,6 @@
 // confidence.adoc
 [[arg-confidence]]
+[discrete]
 === --confidence
 
 Specify confidence level used in outputs.
@@ -8,4 +9,3 @@ Specify confidence level used in outputs.
 |===
 |Type |Numeric
 |===
-<<index,↑ Back to top>>

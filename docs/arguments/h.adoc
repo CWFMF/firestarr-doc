@@ -1,5 +1,6 @@
 // docs/arguments/help.adoc
 [[help]]
+[discrete]
 === -h
 
 Show help information and usage instructions.
@@ -11,4 +12,3 @@ Show help information and usage instructions.
 |===
 ``
 
-<<index,↑ Back to top>>

@@ -1,5 +1,6 @@
 // sim-area.adoc
 [[arg-sim-area]]
+[discrete]
 === --sim-area
 
 Output simulation area grids.
@@ -9,4 +10,3 @@ Output simulation area grids.
 |Type |Flag
 |Default |Disabled
 |===
-<<index,↑ Back to top>>

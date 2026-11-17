@@ -1,5 +1,6 @@
 // deterministic.adoc
 [[arg-deterministic]]
+[discrete]
 === --deterministic
 
 Run simulation deterministically (100% probability of spread and survival).
@@ -9,4 +10,3 @@ Run simulation deterministically (100% probability of spread and survival).
 |Type |Flag
 |Default |Stochastic
 |===
-<<index,↑ Back to top>>

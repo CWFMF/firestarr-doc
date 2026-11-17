@@ -1,5 +1,6 @@
 // s.adoc
 [[arg-s]]
+[discrete]
 === -s
 
 Run simulation in synchronous mode.
@@ -9,4 +10,3 @@ Run simulation in synchronous mode.
 |Type |Flag
 |Default |Asynchronous
 |===
-<<index,↑ Back to top>>

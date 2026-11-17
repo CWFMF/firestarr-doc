@@ -1,5 +1,6 @@
 // size.adoc
 [[arg-size]]
+[discrete]
 === --size
 
 Initialize simulation using initial fire size.
@@ -8,4 +9,3 @@ Initialize simulation using initial fire size.
 |===
 |Type |Numeric
 |===
-<<index,↑ Back to top>>

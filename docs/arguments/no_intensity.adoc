@@ -1,5 +1,6 @@
 // no-intensity.adoc
 [[arg-no-intensity]]
+[discrete]
 === --no-intensity
 
 Disable output of fire intensity grids.
@@ -9,4 +10,3 @@ Disable output of fire intensity grids.
 |Type |Flag
 |Default |Enabled
 |===
-<<index,↑ Back to top>>

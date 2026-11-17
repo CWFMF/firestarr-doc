@@ -1,11 +1,12 @@
 // license.adoc
 [[license]]
+[discrete]
 === License & Publications
-
+[discrete]
 ==== Additional License Condition
 
 All covered works (e.g., copies of this work, derived works) must include a copy of the file (or an updated version of it) that details credits for work up to the time of the original open source release. That file is available [here](./ORIGIN.md).
-
+[discrete]
 ==== Publications
 
 FireGUARD is published at the following locations:

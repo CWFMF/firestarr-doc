@@ -1,5 +1,6 @@
 // apcp_prev.adoc
 [[arg-apcp-prev]]
+[discrete]
 === --apcp_prev
 
 Set precipitation from 1200 previous day to start of hourly weather.

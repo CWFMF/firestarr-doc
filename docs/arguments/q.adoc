@@ -1,5 +1,6 @@
 // q.adoc
 [[verbosity-decrease]]
+[discrete]
 === -q
 
 Decrease output verbosity level.
@@ -9,4 +10,3 @@ Decrease output verbosity level.
 |Type |Flag
 |Default |Normal verbosity
 |===
-<<index,↑ Back to top>>

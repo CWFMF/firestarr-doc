@@ -1,5 +1,6 @@
 // fuel-lut.adoc
 [[arg-fuel-lut]]
+[discrete]
 === --fuel-lut
 
 Specify fuel lookup table file.
@@ -8,4 +9,3 @@ Specify fuel lookup table file.
 |===
 |Type |File path
 |===
-<<index,↑ Back to top>>

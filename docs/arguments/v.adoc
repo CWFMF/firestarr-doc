@@ -1,5 +1,6 @@
 // v.adoc
 [[verbosity-increase]]
+[discrete]
 === -v
 
 Increase output verbosity level. Can typically be repeated for more detail. eg. `-vvv`
@@ -9,4 +10,3 @@ Increase output verbosity level. Can typically be repeated for more detail. eg. 
 |Type |Flag
 |Default |Normal verbosity
 |===
-<<index,↑ Back to top>>

@@ -1,5 +1,6 @@
 // output_date_offsets.adoc
 [[arg-output-date-offsets]]
+[discrete]
 === --output_date_offsets
 
 Override default output date offsets.
@@ -8,4 +9,3 @@ Override default output date offsets.
 |===
 |Type |Configuration
 |===
-<<index,↑ Back to top>>

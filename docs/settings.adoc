@@ -2,7 +2,7 @@
 [[settings.ini]]
 
 The settings.ini file contains a number of definitions that allow FireSTARR to find the information it requires more rapidly as well as a number of constants for use within your simulation.
-
+[discrete]
 === Critical components
 The fuel look up table (how FireStarr knows what the numbers in your fuel grid represent), the root to your raster data, and the output date offsets (what your forecast horrizons are).
 

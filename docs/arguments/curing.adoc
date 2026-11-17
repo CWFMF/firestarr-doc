@@ -1,5 +1,6 @@
 // curing.adoc
 [[arg-curing]]
+[discrete]
 === --curing
 
 Specify static grass curing value.
@@ -8,4 +9,3 @@ Specify static grass curing value.
 |===
 |Type |Numeric
 |===
-<<index,↑ Back to top>>
