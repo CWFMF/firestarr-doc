@@ -37,13 +37,11 @@ jobs:
         run: |
           mkdir -p _site
           cp docs/custom.css _site/
-          find docs -name "*.adoc" -type f | while read file
-          do
-            rel="${file#docs/}"
-            out="_site/${rel%.adoc}.html"
-            mkdir -p "$(dirname "$out")"
-            asciidoctor "$file" -o "$out"
-          done
+
+              asciidoctor \
+              -r asciidoctor-tabs \
+              docs/index.adoc \
+              -o _site/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
