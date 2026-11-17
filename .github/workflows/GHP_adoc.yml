@@ -39,10 +39,12 @@ jobs:
           cp docs/custom.css _site/
 
               asciidoctor \
-              -r asciidoctor-tabs \
-              docs/index.adoc \
-              -o _site/index.html
-
+                -r asciidoctor-tabs \
+                docs/index.adoc \
+                -o _site/index.html
+      - name: Verify gems
+        run: |
+          gem list | grep asciidoctor
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
