@@ -1,6 +1,4 @@
 = FireSTARR Documentation
-:stylesheet: custom.css
-:linkcss:
 :experimental:
 
 == Overview
@@ -20,6 +18,7 @@ https://cwfmf.github.io/FireSTARR/[FireSTARR Technical Documentation]
 Usage::
 +
 --
+[discrete]
 === Usage
 
 This is a test.
