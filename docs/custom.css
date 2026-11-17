@@ -1,0 +1,17 @@
+.tabset {
+  margin-top: 1rem;
+}
+
+.tabset > label {
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+}
+
+.tabset > label:hover {
+  background-color: #f3f3f3;
+}
+
+.tabset > input:checked + label {
+  color: #0969da;
+  border-bottom: 3px solid #0969da;
+}

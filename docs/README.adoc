@@ -1,5 +1,8 @@
 // README.adoc
 = FireSTARR README
+:stylesheet: custom.css
+:linkcss:
+:experimental:
 
 == Overview
 
@@ -11,16 +14,29 @@ This documentation is intended to assist users in understanding the FireSTARR pr
 
 For additional in depth technical details, please see the following website: https://cwfmf.github.io/FireSTARR/.
 
+[tabs]
+====
+Usage::
++
+--
 include::usage.adoc[]
+--
 
+Probability::
++
+--
 include::probability.adoc[]
-== Settings
+--
 
+Settings::
++
+--
 include::settings.adoc[]
+--
 
-[#index]
-== Command Line Arguments
-
+Command Line Arguments::
++
+--
 include::arguments/h.adoc[]
 include::arguments/v.adoc[]
 include::arguments/q.adoc[]
@@ -49,5 +65,11 @@ include::arguments/dmc.adoc[]
 include::arguments/dc.adoc[]
 include::arguments/apcp_prev.adoc[]
 include::arguments/output_date_offset.adoc[]
+--
 
+License::
++
+--
 include::license.adoc[]
+--
+====
