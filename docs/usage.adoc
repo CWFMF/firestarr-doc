@@ -1,5 +1,5 @@
 [[usage]]
-== Usage
+=== Usage
 
 Specifies the arguments for use when using FireSTARR.
 
@@ -15,7 +15,7 @@ Example:
 firestarr.exe <output_dir> <yyyy-mm-dd> <lat> <lon> <HH:MM> [OPTION]...
 ----
 
-=== Basic Help Printout
+==== Basic Help Printout
 
 Arguments are:
 
@@ -66,7 +66,7 @@ Run test cases and save output in the specified directory
    
 ```
 
-### Example use of the tool
+=== Example use of the tool
 
 Note: FireSTARR will look to the location it is invoked from for it's information to run. Any datasets the model requires need to be defined with appropriate flags.
 

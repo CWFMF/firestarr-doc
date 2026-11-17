@@ -1,4 +1,4 @@
-= Project Documentation
+= FireSTARR Documentation
 :toc:
 :toclevels 3:
 
