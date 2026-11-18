@@ -1,6 +1,4 @@
 [[usage]]
-[discrete]
-=== Usage
 
 Specifies the arguments for use when using FireSTARR.
 
