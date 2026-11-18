@@ -33,6 +33,11 @@ Settings::
 include::settings.adoc[]
 --
 
+Command Line Arguments::
++
+--
+[tabs]
+=======
 Fire Environment::
 +
 --
@@ -73,7 +78,8 @@ include::arguments/report.adoc[]
 include::arguments/sim_area.adoc[]
 include::arguments/size.adoc[]
 --
-
+=======
+--
 License::
 +
 --
