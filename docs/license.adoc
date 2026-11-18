@@ -3,12 +3,12 @@
 [discrete]
 ==== Additional License Condition
 
-All covered works (e.g., copies of this work, derived works) must include a copy of the file (or an updated version of it) that details credits for work up to the time of the original open source release. That file is available [here](https://github.com/CWFMF/FireSTARR/blob/main/ORIGIN.md).
+All covered works (e.g., copies of this work, derived works) must include a copy of the file (or an updated version of it) that details credits for work up to the time of the original open source release. That file is available https://github.com/CWFMF/FireSTARR/blob/main/ORIGIN.md[here].
 [discrete]
 ==== Publications
 
 FireGUARD is published at the following locations:
 
-- [Weather forecast model](https://doi.org/10.3390/fire3020016)
+- https://doi.org/10.3390/fire3020016[Weather forecast model]
 - Burn probability model (In progress)
-- [Impact and likelihood-weighted impact model](https://doi.org/10.1071/WF18189)
+- https://doi.org/10.1071/WF18189[Impact and likelihood-weighted impact model]
