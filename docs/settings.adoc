@@ -15,13 +15,13 @@ The fuel look up table (how FireStarr knows what the numbers in your fuel grid r
 
 `MAX_SPREAD_DISTANCE` = 0.4 Maximum distance that head can spread per step (* cell size).This setting will ensure very fast fires are polling the underlying data so it's always spreading the fuels represented by the underlying grid. If you go beyond 1 assessments of the fuel grid would not
 
-`OUTPUT_DATE_OFFSETS` = [1,2,3,7,14] Days to output probability contours for. In this case, days 1, 2, 3 7 and 14 days.
+`OUTPUT_DATE_OFFSETS` = [1,2,3,7,14] Days to output probability contours for. In this case, days 1, 2, 3 7 and 14 days. Can be any number from 1 to the number of days present in the forecast.
 
 `FUEL_LOOKUP_TABLE` = ./fuel.lut Lookup table (LUT) for fuels (prometheus format). The Lookup table is also the location where you would provide meaningful overrides for non-fuels. The LUT that is shipped with FireSTARR has non-fuels (except water) being turned into D-2 or some low conifer M series fuel. This ensure some spread through non-fuel.
 
-`MINIMUM_FFMC` = 65.0 Minimum ffmc for fire to spread. This is essentially a global burning condition, without an FFMC over 65, fire will not spread.
+`MINIMUM_FFMC` = 65.0 Minimum FFMC for fire to spread. This is essentially a global burning condition, without an FFMC over 65, fire will not spread.
 
-`MINIMUM_FFMC_AT_NIGHT` = 85.0 Minimum ffmc for fire to spread at night. This is essentially a global burning condition, without an FFMC over 85, fire will not spread.
+`MINIMUM_FFMC_AT_NIGHT` = 85.0 Minimum FFMC for fire to spread at night. This is essentially a global burning condition, without an FFMC over 85, fire will not spread.
 
 `OFFSET_SUNRISE` = 0.0 Time after sunrise to start burning (hours). Another global burning condition to limit fire spread.
 
@@ -45,13 +45,13 @@ The fuel look up table (how FireStarr knows what the numbers in your fuel grid r
 
 `CONFIDENCE_LEVEL` = 0.1 Maximum percent change in statistics between runs before results are consider stable [0 - 1]
 
-`INTENSITY_MAX_LOW` = 2000 Intensity considered to be top of the range (kW/m)
+`INTENSITY_MAX_LOW` = 2000 Intensity considered to be top of the low intensity range (kW/m). Low intensity will be defined as 0 to the value set here.
 
-`INTENSITY_MAX_MODERATE` = 4000 Intensity considered to be top of the range (kW/m)
+`INTENSITY_MAX_MODERATE` = 4000 Intensity considered to be top of the moderate intensity range (kW/m). Moderate intensity will be defined as the value set for INTENSITY_MAX_LOW to the value set here. Any intensity above this value will be considered high intensity.
 
 [cols="1,3"]
 |===
-|Setting |Default
+|Setting |Default Values
 |RASTER_ROOT | ./generated/grid/100m
 |MINIMUM_ROS | 0.0
 |MAX_SPREAD_DISTANCE | 0.4
