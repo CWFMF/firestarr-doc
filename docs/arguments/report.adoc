@@ -1,9 +1,9 @@
-// log.adoc
-[[arg-log]]
+// report.adoc
+[[arg-report]]
 [discrete]
-=== --log
+=== --report
 
-Write execution logs to file.
+Generate a detailed report of the simulation results.
 
 [cols="1,3"]
 |===
