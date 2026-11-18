@@ -6,7 +6,7 @@ The settings.ini file contains a number of definitions that allow FireSTARR to f
 === Critical components
 The fuel look up table (how FireStarr knows what the numbers in your fuel grid represent), the root to your raster data, and the output date offsets (what your forecast horrizons are).
 
-<<raster-root, raster-root>> = ./generated/grid/100m Root directory to read rasters from. FireSTARR will read from this location without explicit definition
+<<arg-raster-root, raster-root>> = ./generated/grid/100m Root directory to read rasters from. FireSTARR will read from this location without explicit definition
 
 `MINIMUM_ROS` = 0.0Minimum rate of spread before fire is considered to actually be spreading. If this is above 0 it would yield results where the fire is not moving so long as the rate of spread is below the value defined here.
 
