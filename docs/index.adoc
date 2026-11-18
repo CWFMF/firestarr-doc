@@ -33,12 +33,7 @@ Settings::
 include::settings.adoc[]
 --
 
-Command Line Arguments::
-+
---
-[tabs]
-=======
-Fire Environment::
+Fire Environment Arguments::
 +
 --
 include::arguments/wx.adoc[]
@@ -51,7 +46,7 @@ include::arguments/greenup.adoc[]
 include::arguments/fuel_lut.adoc[]
 include::arguments/tz.adoc[]
 --
-Software Settings::
+Software Setting Arguments::
 +
 --
 include::arguments/ascii.adoc[]
@@ -60,7 +55,7 @@ include::arguments/log.adoc[]
 include::arguments/v.adoc[]
 include::arguments/q.adoc[]
 --
-Model Settings::
+Model Setting Arguments::
 +
 --
 include::arguments/confidence.adoc[]
@@ -78,8 +73,7 @@ include::arguments/report.adoc[]
 include::arguments/sim_area.adoc[]
 include::arguments/size.adoc[]
 --
-=======
---
+
 License::
 +
 --
