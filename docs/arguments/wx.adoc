@@ -19,4 +19,4 @@ Relative address from current working directory:
 |Required |Yes
 |Manadtory Fields| `Date, Time, Temperature, Relative Humidity, Wind Speed, Wind Direction, Precipitation`
 |===
-``
+
