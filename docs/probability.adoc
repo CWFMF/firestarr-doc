@@ -1,5 +1,3 @@
-[discrete]
-=== Probability of fire spread
 Determine rate of spread from probability of spread threshold.
 
 [cols="1,2"]
