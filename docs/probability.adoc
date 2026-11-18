@@ -32,5 +32,24 @@ Where P is the threshold above.
 |99% |38.9695
 |===
 
+==== In Practice
+
+The spread potential thresholds are set using 3 separate random numbers, scenario, day and hour. These numbers are all drawn independently and aggregated into a total weight after being multiple against their weights as established with the THRESHOLD_***_WEIGHT.
+
+Spread Example 1 
+
+image::../img/Spread_1.png[Spread Example 1]
+
+Spread Example 2
+
+image::../img/Spread_2.png[Spread Example 2]
+
+What this looks like in practice is as follows.
+
+Wherever the weighted simulation + daily + total threshold is above the value required for spread then the fire will spread. With the same scenario for weather, there can still be different outcomes. For example, if the scenario produced the sine-wave for the rate of spread, you can see that for the 2nd scenarios 1st day, the rate of spread is above the threshold most of the time, and thus it would spread, whereas the 1st scenario would spread briefly before noon, but otherwise not spread during that day.
+
+Think of it like hourly burning conditions. The fire is only allowed to spread when the rate of spread at the pixel exceeds the threshold for that hour. By running many simulations with these thresholds being selceted randomly, you can get a sense of the likelihood of spread for a given scenario within a given timeframe.
+
+
 References
 Podur, Justin & Wotton, Mike. (2011). Defining fire spread event days for fire-growth modelling. International Journal of Wildland Fire. 20. 497-507. 10.1071/WF09001.

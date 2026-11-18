@@ -30,21 +30,6 @@ The fuel look up table (how FireStarr knows what the numbers in your fuel grid r
 
 `THRESHOLD_HOURLY_WEIGHT` = 2.0 Weight given to the hourly thresholds
 
-The spread potential thresholds are set using 3 separate random numbers, scenario, day and hour. These numbers are all drawn independently and aggregated into a total weight after being multiple against their weights as established with the THRESHOLD_***_WEIGHT.
-
-Spread Example 1 
-
-image::../img/Spread_1.png[Spread Example 1]
-
-Spread Example 2
-
-image::../img/Spread_2.png[Spread Example 2]
-
-What this looks like in practice is as follows.
-
-Wherever the weighted simulation + daily + total threshold is above the value required for spread then the fire will spread. With the same scenario for weather, there can still be different outcomes. For example, if the scenario produced the sine-wave for the rate of spread, you can see that for the 2nd scenario’s 1st day, the rate of spread is above the threshold most of the time, and thus it would spread, whereas the 1st scenario would spread briefly before noon, but otherwise not spread during that day.
-
-
 `DEFAULT_PERCENT_CONIFER` = 50 Default M-1/M-2 percent conifer if none specified
 
 `DEFAULT_PERCENT_DEAD_FIR` = 30 Default M-3/M-4 percent dead fir if none specified

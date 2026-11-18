@@ -38,6 +38,8 @@ jobs:
           mkdir -p _site
           cp docs/custom.css _site/
 
+          cp -r img _site/
+
               asciidoctor \
                 -r asciidoctor-tabs \
                 docs/index.adoc \
